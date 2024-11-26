@@ -54,4 +54,4 @@ output "ec2_instance_public_ip" {
 output "ec2_instance_private_ip" {
   description = "The private IP of the EC2 instance"
   value       = module.EC2_module.ec2_instance_private_dns
-}
+}  

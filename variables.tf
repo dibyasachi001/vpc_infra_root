@@ -62,7 +62,7 @@ variable "ec2_instance_type" {
   description = "EC2 instance type: public/private"
   type        = string
   validation {
-    condition = contains(["public", "private"], var.ec2_instance_type)
+    condition     = contains(["public", "private"], var.ec2_instance_type)
     error_message = "Must be either public or private only"
   }
 }
@@ -76,7 +76,7 @@ variable "ec2_name" {
   description = "EC2 instance name"
   type        = string
 }
-
+################################################################3
 # variable "instance_count" {
 #   description = "Number of EC2 instances creation"
 #   type        = number

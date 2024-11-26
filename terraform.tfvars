@@ -16,9 +16,9 @@ prefix_sg  = "MySG"
 web_server = [22, 80, 443]
 
 # EC2 Instances
-ami_id         = "ami-037a2314eeca55594"
-instance_type  = "t2.micro"
-ec2_key_name       = "NewKey"
+ami_id            = "ami-037a2314eeca55594"
+instance_type     = "t2.micro"
+ec2_key_name      = "NewKey"
 ec2_instance_type = "public"
-ec2_subnet_index = 2
-ec2_name = "public-instance-1"
+ec2_subnet_index  = 1
+ec2_name          = "public-instance-1"
